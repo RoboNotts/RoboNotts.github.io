@@ -6,6 +6,12 @@
     --text-font: 'Kosugi Maru';
 }
 
+.logo {
+    position: absolute;
+    left: 2%;
+    height: 5%;
+    width: 5%;
+}
 .scientificLink {
     font-family: var(--text-font), sans-serif;
     color: white;
