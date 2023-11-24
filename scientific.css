@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+
+:root {
+    --background-colour: #E62A2E;
+    --title-font: 'Krona One';
+    --text-font: 'Kosugi Maru';
+}
+
+.title {
+    font-family: var(--title-font), sans-serif;
+    color: var(--background-colour);
+    font-weight: 120;
+    font-size: 4vw;
+    text-align:center;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+}
+
+.scientificLink {
+    font-family: var(--text-font), sans-serif;
+    color: black;
+    font-weight: 120;
+    font-size: 1vw;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 1%;
+    left: 73%;
+    display: inline-block;
+}
+
+.scientificLink:hover {
+    text-underline-offset: 0.4em;
+    text-decoration: underline;
+    font-family: var(--text-font), sans-serif;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.mediaLink {
+    font-family: var(--text-font), sans-serif;
+    color: black;
+    font-weight: 120;
+    font-size: 1vw;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 1%;
+    left: 94%;
+}
+
+.mediaLink:hover {
+    font-family: var(--text-font), sans-serif;
+    text-underline-offset: 0.4em;
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent ;
+}
+.pubIntro bulletP {
+    font-family: var(--text-font), sans-serif;
+    position: relative;
+    top: 1em;
+}
+
+.pubIntro {
+    font-family: var(--text-font), sans-serif;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.techApTitle {
+    font-family: var(--title-font), sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
