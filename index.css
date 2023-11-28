@@ -88,6 +88,7 @@ a.robocup-link:hover {
     color: white;
     text-decoration: underline;
 }
+
 .goingTo {
     font-family: var(--text-font), sans-serif;
     color: white;
@@ -97,6 +98,31 @@ a.robocup-link:hover {
     position: absolute;
     left: 40%;
     top: 45%;
+}
+
+a.linkToOld-link:link {
+    color: white;
+    text-decoration: underline;
+}
+
+a.linkToOld-link:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+a.linkToOld:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.link {
+    font-family: var(--text-font), sans-serif;
+    color: white;
+    font-size: 1.1vw;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    top: 53%;
 }
 
 .scrollDown {
