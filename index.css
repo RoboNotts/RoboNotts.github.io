@@ -156,6 +156,7 @@ a.linkToOld:hover {
     left: 46%;
     top: 56%;
 }
+
 .square {
     background-color: var(--background-colour);
     height: 75vh;
@@ -307,7 +308,7 @@ a.linkToOld:hover {
 .amber-bio {
     position: absolute;
     top: 300%;
-    width: 100%;
+    width: 80%;
 }
 
 .hex1 {
@@ -332,7 +333,7 @@ a.linkToOld:hover {
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
-.hex1 hex-amber {
+.hex-amber {
     position: absolute;
     background-color: orange; 
     top: 2px; 
