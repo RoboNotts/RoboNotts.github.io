@@ -66,7 +66,7 @@
         For tasks that require person detection, pose estimation, activity detection, etc. we use MediaPipe, as well as custom AI models using TensorFlow
         <br>
         <br>
-        <b>Navigation</b> To achieve effective navigation, RoboNotts uses the Slam Toolbox~\cite{slamtb} and Nav2 ROS package. HAPPY's LiDAR and range sensors are used to create a base map of an area,
+        <b>Navigation</b> To achieve effective navigation, RoboNotts uses the Slam Toolbox and Nav2 ROS package. HAPPY's LiDAR and range sensors are used to create a base map of an area,
         to which important details are added; way-points (areas often traversed) for navigation, locations of interest (such as the position of doors, or where sitting areas are), and start/end positions
         for benchmarks. Once this refined map is built, the Nav2 navigation stack is used to traverse between these points, effectively building a graph-based map of an area.Object avoidance is performed 
         proactively by the Nav2 stack, but the team also produced ROS nodes which are tasked with reactive object avoidance in the case of unexpected obstacles. These nodes work by detecting objects not only
