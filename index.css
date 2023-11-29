@@ -228,11 +228,16 @@ a.linkToOld:hover {
     left: 75%;
 }
 
+.adrian-bio {
+    position: absolute;
+    top: 230%;
+}
+
 .hex {
     display: block;
     margin: 0 auto;
     position: absolute;
-    top: 230%;
+    top: 14%;
     left: 5%;
     width: 290px;
     height: 260.12px; /* width * 0.866 */
@@ -259,6 +264,34 @@ a.linkToOld:hover {
     height: 260.12px;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.adrian-name {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 2vw;
+    top: 25%;
+    left: 30%;
+}
+
+.adrian-role {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.8vw;
+    top: 15%;
+    left: 30%;
+}
+
+.adrian-description {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.4vw;
+    top: 70%;
+    left: 30%;
+    width: 50%;
 }
 
 .bottomSquare {
