@@ -332,7 +332,7 @@ a.linkToOld:hover {
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
-.hex-amber {
+.hex1 hex-amber {
     position: absolute;
     background-color: orange; 
     top: 2px; 
