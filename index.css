@@ -294,6 +294,15 @@ a.linkToOld:hover {
     width: 50%;
 }
 
+.adrian-contact {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.2vw;
+    top: 70%;
+    left: 30%;
+}
+
 .bottomSquare {
     background-color: var(--background-colour);
     position: absolute;
