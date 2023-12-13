@@ -344,6 +344,97 @@ a.linkToOld:hover {
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
+.amber-bio {
+    position: absolute;
+    top: 300%;
+    width: 80%;
+}
+
+.amber-name {
+    font-family: var(--text-font);
+    color: black;
+    text-align: right;
+    position: relative;
+    font-size: 2vw;
+    top: 35%;
+    left: 5%;
+}
+
+.amber-role {
+    font-family: var(--text-font);
+    color: black;
+    text-align: right;
+    position: relative;
+    font-size: 1.8vw;
+    top: 15%;
+    left: 5%;
+}
+
+.amber-description {
+    font-family: var(--text-font);
+    text-align: right;
+    color: black;
+    position: relative;
+    font-size: 1.2vw;
+    top: 80%;
+    left: 55%;
+    width: 50%;
+}
+
+.amber-contact {
+    font-family: var(--text-font);
+    color: black;
+    text-align: left;
+    position: relative;
+    font-size: 1.2vw;
+    top: 70%;
+    left: 100%;
+    width: 10%;
+}
+
+.daudi-bio {
+    position: absolute;
+    top: 370%;
+    width: 80%;
+}
+
+.daudi-name {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 2vw;
+    top: 35%;
+    left: 5%;
+}
+
+.daudi-role {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.8vw;
+    top: 15%;
+    left: 5%;
+}
+
+.daudi-description {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.4vw;
+    top: 70%;
+    left: 5%;
+    width: 50%;
+}
+
+.daudi-contact {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.2vw;
+    top: 70%;
+    left: 5%;
+    width: 30%;
+}
 .bottomSquare {
     background-color: var(--background-colour);
     position: absolute;
