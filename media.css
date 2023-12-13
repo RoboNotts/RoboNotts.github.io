@@ -75,18 +75,16 @@
 }
 
 .videoholder{
-    display:block;
+    display:inline-block;
     margin-top:20%;
-    margin-left: auto;
-    margin-right: auto;
-    width:740px;
+    text-align:center;
+    width:100%;
 }
 .videonextline{
   
 
-    display:block;
+    display:inline-block;
   
-    margin-left: auto;
-    margin-right: auto;
-    width:560px;
+    text-align:center;
+    width:100%
 }
