@@ -347,10 +347,43 @@ a.linkToOld:hover {
 .amber-name {
     font-family: var(--text-font);
     color: black;
+    text-align: right;
     position: relative;
     font-size: 2vw;
     top: 35%;
-    left: 35%;
+    left: 5%;
+}
+
+.amber-role {
+    font-family: var(--text-font);
+    color: black;
+    text-align: right;
+    position: relative;
+    font-size: 1.8vw;
+    top: 15%;
+    left: 5%;
+}
+
+.amber-description {
+    font-family: var(--text-font);
+    text-align: right;
+    color: black;
+    position: relative;
+    font-size: 1.2vw;
+    top: 80%;
+    left: 55%;
+    width: 50%;
+}
+
+.amber-contact {
+    font-family: var(--text-font);
+    color: black;
+    text-align: left;
+    position: relative;
+    font-size: 1.2vw;
+    top: 70%;
+    left: 95%;
+    width: 10%;
 }
 
 .bottomSquare {
