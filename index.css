@@ -344,6 +344,15 @@ a.linkToOld:hover {
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
+.amber-name {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 2vw;
+    top: 35%;
+    left: 35%;
+}
+
 .bottomSquare {
     background-color: var(--background-colour);
     position: absolute;
