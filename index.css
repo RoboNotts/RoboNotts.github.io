@@ -52,8 +52,16 @@
     border-color: transparent ;
 }
 
+.h-20 {
+    height: 20%;
+}
+
 .h-15 {
     height: 15%;
+}
+
+.h-125 {
+    height: 12.5%;
 }
 
 .title {
@@ -99,9 +107,6 @@ a.robocup-link:hover {
     font-weight: 50;
     font-size: 1.24vw;
     text-align: center;
-    position: absolute;
-    left: 40%;
-    top: 45%;
 }
 
 a.linkToOld-link:link {
@@ -124,9 +129,6 @@ a.linkToOld:hover {
     color: white;
     font-size: 1.1vw;
     text-align: center;
-    position: absolute;
-    left: 40%;
-    top: 53%;
 }
 
 .scrollDown {
@@ -135,9 +137,6 @@ a.linkToOld:hover {
     font-weight: 50;
     font-size: 1.1vw;
     text-align: center;
-    position: absolute;
-    left: 38%;
-    top: 49%;
 }
 
 .triangleDown {
