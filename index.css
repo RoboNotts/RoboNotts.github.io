@@ -8,8 +8,9 @@
 
 .logo {
     position: absolute;
-    left: 2%;
+    left: 1%;
 }
+
 .scientificLink {
     font-family: var(--text-font), sans-serif;
     color: white;
@@ -19,7 +20,7 @@
     border-color: transparent;
     position: absolute;
     top: 1%;
-    left: 73%;
+    left: 1%;
     display: inline-block;
 }
 
@@ -40,7 +41,7 @@
     border-color: transparent;
     position: absolute;
     top: 1%;
-    left: 94%;
+    left: 1%;
 }
 
 .mediaLink:hover {
@@ -50,16 +51,21 @@
     background-color: transparent;
     border-color: transparent ;
 }
+
+.h-15 {
+    height: 15%;
+}
+
 .title {
     font-family: var(--title-font), sans-serif;
     color: white;
     font-weight: 120;
     font-size: 4vw;
     text-align:center;
-    width: 70%;
+    width: 100%;
     position: absolute;
-    left: 15%;
-    top: 20%;
+    /*left: 15%;*/
+    /*top: 20%;*/
 }
 
 .biggerTitle {
@@ -70,8 +76,6 @@
     text-align:center;
     width: 50%;
     position: absolute;
-    left: 23%;
-    top: 30%;
 }
 
 a.robocup-link:link {
