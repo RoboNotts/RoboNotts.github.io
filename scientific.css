@@ -9,13 +9,14 @@
 }
 .square {
     background-color: var(--background-colour);
-    
+    position: absolute;
     height: 40vh;
     padding:0;
     margin:0;
     top:0%;
     left:0;
     width: 100%;
+
     
 }
 
@@ -27,7 +28,7 @@
     text-align:center;
     width: 70%;
     position: absolute;
-    top: 15%;
+    top: 35%;
     left: 15%;
 }
 .logo {
@@ -79,7 +80,7 @@
 .bulletP {
     font-family: var(--text-font), sans-serif;
     width: 50%;
-    position: relative;
+    position: absolute;
     font-size:0.8vw;
     top: 55%;
     left: 5%;
@@ -90,7 +91,7 @@
     width: 60%;
     position: absolute;
     font-size:0.8vw;
-    top: 45%;
+    top: 110%;
     left: 5%;
 }
 .techApDesc {
@@ -98,7 +99,7 @@
     width: 50%;
     font-size:0.8vw;
     position: absolute;
-    top: 65%;
+    top: 155%;
     left:5%;
 
 }
@@ -107,7 +108,7 @@
     color: var(--background-colour);
     position: absolute;
     font-size:1.3vw;
-    top: 60%;
+    top: 145%;
     left: 5%;
 }
 
@@ -117,7 +118,7 @@
     width:50%;
     position: absolute;
     font-size:1.1vw;
-    top: 72%;
+    top: 172%;
     left: 5%;
 }
 .HardwareDesc{
@@ -125,7 +126,7 @@
     width: 50%;
     font-size:0.8vw;
     position: absolute;
-    top: 75%;
+    top: 182%;
     left:5%;
 }
 
@@ -134,7 +135,7 @@
     color: var(--background-colour);
     position: absolute;
     font-size:1.1vw;
-    top: 95%;
+    top: 234%;
     left: 5%;
 }
 .SoftwareDesc{
@@ -142,13 +143,13 @@
     width: 50%;
     font-size:0.8vw;
     position: absolute;
-    top: 100%;
+    top: 244%;
     left:5%;
 }
 .HRI{
     position: absolute;
     left: 60%;
-    top: 120%
+    top: 250%
 }
 .HRIList{
     font-family: var(--text-font), sans-serif;
@@ -156,21 +157,21 @@
     font-size:0.8vw;
     position:absolute;
     left:5%;
-    top:150%;
+    top:365%;
 }
 .HRIDesc{
     font-family: var(--text-font), sans-serif;
     width: 50%;
     font-size:0.8vw;
     position: absolute;
-    top: 175%;
+    top: 430%;
     left:5%;
 }
 
 .bottomSquare {
     background-color: var(--background-colour);
     position: absolute;
-    top: 190%;
+    top: 460%;
     padding:0;
     margin:0;
     left:0%;
