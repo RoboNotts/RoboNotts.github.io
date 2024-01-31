@@ -10,6 +10,9 @@
     position: absolute;
     left: 1%;
 }
+html,  body {
+    overflow-x: hidden;
+}
 
 .scientificLink {
     font-family: var(--text-font), sans-serif;
@@ -244,8 +247,8 @@ a.linkToOld:hover {
     position: absolute;
     top: 3%;
     left: 5%;
-    width: 290px;
-    height: 260.12px; /* width * 0.866 */
+    width: 200px;
+    height: 173.2px; /* width * 0.866 */
     box-sizing: border-box;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
@@ -265,8 +268,8 @@ a.linkToOld:hover {
     background-color: orange; 
     top: 2px; 
     left: 2px; 
-    width: 290px; 
-    height: 260.12px;
+    width: 200px; 
+    height: 173.2px;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -275,7 +278,7 @@ a.linkToOld:hover {
     font-family: var(--text-font);
     color: black;
     position: relative;
-    font-size: 2vw;
+    font-size: 1.6vw;
     top: 25%;
     left: 35%;
 }
@@ -284,7 +287,7 @@ a.linkToOld:hover {
     font-family: var(--text-font);
     color: black;
     position: relative;
-    font-size: 1.8vw;
+    font-size: 1.2vw;
     top: 15%;
     left: 35%;
 }
@@ -293,7 +296,7 @@ a.linkToOld:hover {
     font-family: var(--text-font);
     color: black;
     position: relative;
-    font-size: 1.4vw;
+    font-size: 1vw;
     top: 70%;
     left: 35%;
     width: 50%;
@@ -303,15 +306,16 @@ a.linkToOld:hover {
     font-family: var(--text-font);
     color: black;
     position: relative;
-    font-size: 1.2vw;
+    font-size: 0.8vw;
     top: 70%;
     left: 35%;
 }
 
 .amber-bio {
     position: absolute;
-    top: 300%;
-    width: 80%;
+    top: 280%;
+    left:20%;
+    width: 74%;
 }
 
 .hex1 {
@@ -319,9 +323,9 @@ a.linkToOld:hover {
     margin: 0 auto;
     position: absolute;
     top: 3%;
-    right: 5%;
-    width: 290px;
-    height: 260.12px; /* width * 0.866 */
+    right: 0%;
+    width: 200px;
+    height: 173.2px; /* width * 0.866 */
     box-sizing: border-box;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
@@ -341,26 +345,22 @@ a.linkToOld:hover {
     background-color: orange; 
     top: 2px; 
     left: 2px; 
-    width: 290px; 
-    height: 260.12px;
+    width: 200px; 
+    height: 173.2px;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
-.amber-bio {
-    position: absolute;
-    top: 300%;
-    width: 80%;
-}
+
 
 .amber-name {
     font-family: var(--text-font);
     color: black;
     text-align: right;
     position: relative;
-    font-size: 2vw;
+    font-size: 1.6vw;
     top: 35%;
-    left: 5%;
+    right: 30%;
 }
 
 .amber-role {
@@ -368,9 +368,9 @@ a.linkToOld:hover {
     color: black;
     text-align: right;
     position: relative;
-    font-size: 1.8vw;
+    font-size: 1.2vw;
     top: 15%;
-    left: 5%;
+    right: 30%;
 }
 
 .amber-description {
@@ -378,9 +378,9 @@ a.linkToOld:hover {
     text-align: right;
     color: black;
     position: relative;
-    font-size: 1.2vw;
+    font-size: 1vw;
     top: 80%;
-    left: 55%;
+    left: 20%;
     width: 50%;
 }
 
@@ -389,15 +389,28 @@ a.linkToOld:hover {
     color: black;
     text-align: left;
     position: relative;
-    font-size: 1.2vw;
+    font-size: 0.8vw;
     top: 70%;
-    left: 100%;
+    left: 64%;
     width: 10%;
 }
 
+
+.hex-daudi{
+    position: absolute;
+    background-color: orange; 
+    top: 2px; 
+    left: 2px; 
+    width: 200px; 
+    height: 173.2px;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+
 .daudi-bio {
     position: absolute;
-    top: 370%;
+    top: 320%;
     width: 80%;
 }
 
@@ -405,27 +418,27 @@ a.linkToOld:hover {
     font-family: var(--text-font);
     color: black;
     position: relative;
-    font-size: 2vw;
+    font-size: 1.6vw;
     top: 35%;
-    left: 5%;
+    left: 35%;
 }
 
 .daudi-role {
     font-family: var(--text-font);
     color: black;
     position: relative;
-    font-size: 1.8vw;
+    font-size: 1.2vw;
     top: 15%;
-    left: 5%;
+    left: 35%;
 }
 
 .daudi-description {
     font-family: var(--text-font);
     color: black;
     position: relative;
-    font-size: 1.4vw;
+    font-size: 1vw;
     top: 70%;
-    left: 5%;
+    left: 35%;
     width: 50%;
 }
 
@@ -433,16 +446,31 @@ a.linkToOld:hover {
     font-family: var(--text-font);
     color: black;
     position: relative;
-    font-size: 1.2vw;
+    font-size: 0.8vw;
     top: 70%;
-    left: 5%;
+    left: 35%;
     width: 30%;
 }
 
-.adi-bio {
+
+.hex-adi {
     position: absolute;
-    top: 420%;
-    width: 80%;
+    background-color: orange; 
+    top: 2px; 
+    left: 2px; 
+    width: 200px; 
+    height:173.2px;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.adi-bio {
+        position: absolute;
+        top: 360%;
+        left:20%;
+        width: 74%;
+    
+    
 }
 
 .adi-name {
@@ -450,10 +478,10 @@ a.linkToOld:hover {
     color: black;
     text-align: right;
     position: relative;
-    font-size: 2vw;
+    font-size: 1.6vw;
     top: 30%;
-    left: 75%;
-    width: 30%;
+    right: 30%;
+ 
 }
 
 .adi-role {
@@ -461,19 +489,20 @@ a.linkToOld:hover {
     color: black;
     text-align: right;
     position: relative;
-    font-size: 1.8vw;
+    font-size: 1.2vw;
     top: 15%;
-    left: 70%;
-    width: 35%;
+    right: 30%;
+
 }
 
 .adi-description {
     font-family: var(--text-font);
     color: black;
+    text-align:right;
     position: relative;
     top: 30%;
-    left: 40%;
-    font-size: 1.4vw;
+    left: 20%;
+    font-size: 1vw;
     width: 50%;
 }
 
@@ -482,15 +511,151 @@ a.linkToOld:hover {
     color: black;
     text-align: right;
     position: relative;
-    font-size: 1.2vw;
+    font-size: 0.8vw;
     top: 70%;
-    left: 100%;
+    right: 30%;
 }
+
+
+.hex-ellis{
+    position: absolute;
+    background-color: orange; 
+    top: 2px; 
+    left: 2px; 
+    width: 200px; 
+    height: 173.2px;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+
+.ellis-bio {
+    position: absolute;
+    top: 400%;
+    width: 80%;
+}
+
+.ellis-name {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.6vw;
+    top: 35%;
+    left: 35%;
+}
+
+.ellis-role {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.2vw;
+    top: 15%;
+    left: 35%;
+}
+
+.ellis-description {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1vw;
+    top: 70%;
+    left: 35%;
+    width: 50%;
+}
+
+.ellis-contact {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 0.8vw;
+    top: 70%;
+    left: 35%;
+    width: 30%;
+}
+
 
 .bottomSquare {
     background-color: var(--background-colour);
     position: absolute;
-    top: 500%;
+    top: 600%;
     height: 20vh;
     width: 100%;
+}
+
+.eva-bio {
+    position: absolute;
+    top: 440%;
+    left:20%;
+    width: 74%;
+}
+
+
+
+.hex-eva {
+    position: absolute;
+    background-color: orange; 
+    top: 2px; 
+    left: 2px; 
+    width: 200px; 
+    height: 173.2px;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+
+
+
+.hex-nathan{
+    position: absolute;
+    background-color: orange; 
+    top: 2px; 
+    left: 2px; 
+    width: 200px; 
+    height: 173.2px;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+
+.nathan-bio {
+    position: absolute;
+    top:480%;
+    width: 80%;
+}
+
+.ishan-bio {
+    position: absolute;
+    top: 520%;
+    left:20%;
+    width: 74%;
+}
+
+.hex-ishan {
+    position: absolute;
+    background-color: orange; 
+    top: 2px; 
+    left: 2px; 
+    width: 200px; 
+    height: 173.2px;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.qiang-bio {
+    position: absolute;
+    top: 560%;
+    width: 74%;
+}
+
+
+
+.hex-qiang {
+    position: absolute;
+    background-color: orange; 
+    top: 2px; 
+    left: 2px; 
+    width: 200px; 
+    height: 173.2px;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
