@@ -438,7 +438,7 @@ a.linkToOld:hover {
     height:173.2px;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-}
+}   
 
 .adi-bio {
         position: absolute;
@@ -550,14 +550,6 @@ a.linkToOld:hover {
 }
 
 
-.bottomSquare {
-    background-color: var(--background-colour);
-    position: absolute;
-    top: 600%;
-    height: 20vh;
-    width: 100%;
-}
-
 .eva-bio {
     position: absolute;
     top: 440%;
@@ -577,8 +569,6 @@ a.linkToOld:hover {
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
-
-
 
 
 .hex-nathan{
@@ -634,4 +624,29 @@ a.linkToOld:hover {
     height: 173.2px;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.hex-nishi{
+    position: absolute;
+    background-color: orange; 
+    top: 2px; 
+    left: 2px; 
+    width: 200px; 
+    height: 173.2px;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.nishi-bio {
+    position: absolute;
+    top:580%;
+    width: 80%;
+}
+
+.bottomSquare {
+    background-color: var(--background-colour);
+    position: absolute;
+    top: 600%;
+    height: 20vh;
+    width: 100%;
 }
