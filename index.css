@@ -10,7 +10,12 @@
     position: absolute;
     left: 1%;
 }
-html,  body {
+
+html {
+    overflow-x: hidden;
+}
+
+body {
     overflow-x: hidden;
 }
 
