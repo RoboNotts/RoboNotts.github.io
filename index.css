@@ -55,6 +55,14 @@ html,  body {
     border-color: transparent ;
 }
 
+.h-40 {
+    height: 40%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
 .h-20 {
     height: 20%;
 }
@@ -78,7 +86,6 @@ html,  body {
     font-size: 4vw;
     text-align:center;
     width: 100%;
-    position: absolute;
 }
 
 .biggerTitle {
@@ -154,50 +161,28 @@ a.linkToOld:hover {
     color: var(--background-colour);
     font-weight: 120;
     font-size: 3vw;
-    text-align:center;
-    top: 5%;
 }
 
 .comp1 {
     font-family: var(--text-font);
-    position: absolute;
+    text-align: left;
     font-size: 1.5vw;
 }
 
 .date1 {
     font-family: var(--text-font);
-    position: absolute;
-    top: 105%;
-    left: 4%;
+    text-align: left;
     font-size: 0.8vw;
-}
-
-.compOneVideo {
-    position: absolute;
-    top: 110%;
-    left: 4%;
 }
 
 .comp2 {
     font-family: var(--text-font);
-    position: absolute;
-    top: 160%;
-    left: 4%;
     font-size: 1.5vw;
 }
 
 .date2 {
     font-family: var(--text-font);
-    position: absolute;
-    top: 165%;
-    left: 4.1%;
     font-size: 0.8vw;
-}
-
-.compTwoVideo { 
-    position: absolute;
-    top: 170%;
-    left: 4%;
 }
 
 .ourTeamTitle {
@@ -206,15 +191,6 @@ a.linkToOld:hover {
     font-weight: 120;
     font-size: 3vw;
     text-align:center;
-    position: absolute;
-    top: 220%;
-    left: 75%;
-}
-
-.adrian-bio {
-    position: absolute;
-    top: 240%;
-    width: 74%;
 }
 
 .hex {
@@ -287,13 +263,6 @@ a.linkToOld:hover {
     left: 30%;
 }
 
-.amber-bio {
-    position: absolute;
-    top: 280%;
-    left:20%;
-    width: 74%;
-}
-
 .hex1 {
     display: block;
     margin: 0 auto;
@@ -317,17 +286,12 @@ a.linkToOld:hover {
 }
 
 .hex-amber {
-    position: absolute;
     background-color: orange; 
-    top: 2px; 
-    left: 2px; 
     width: 200px; 
     height: 173.2px;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
-
-
 
 .amber-name {
     font-family: var(--text-font);
@@ -371,7 +335,6 @@ a.linkToOld:hover {
     width: 10%;
 }
 
-
 .hex-daudi{
     position: absolute;
     background-color: orange; 
@@ -383,19 +346,12 @@ a.linkToOld:hover {
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
-
-.daudi-bio {
-    position: absolute;
-    top: 320%;
-    width: 74%;
-}
-
 .daudi-name {
     font-family: var(--text-font);
     color: black;
     position: relative;
     font-size: 1.6vw;
-    top: 35%;
+    top: 25%;
     left: 30%;
 }
 
@@ -428,26 +384,16 @@ a.linkToOld:hover {
     width: 30%;
 }
 
-
 .hex-adi {
-    position: absolute;
     background-color: orange; 
-    top: 2px; 
-    left: 2px; 
+    position: absolute;
+    top: 2px;
+    right: 2px;
     width: 200px; 
-    height:173.2px;
+    height: 173.2px;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }   
-
-.adi-bio {
-        position: absolute;
-        top: 360%;
-        left:20%;
-        width: 74%;
-    
-    
-}
 
 .adi-name {
     font-family: var(--text-font);
@@ -457,7 +403,6 @@ a.linkToOld:hover {
     font-size: 1.6vw;
     top: 30%;
     right: 25%;
- 
 }
 
 .adi-role {
@@ -468,30 +413,29 @@ a.linkToOld:hover {
     font-size: 1.2vw;
     top: 15%;
     right: 25%;
-
 }
 
 .adi-description {
     font-family: var(--text-font);
+    text-align: right;
     color: black;
-    text-align:right;
     position: relative;
-    top: 30%;
-    left: 25%;
     font-size: 1vw;
+    top: 80%;
+    left: 25%;
     width: 50%;
 }
 
 .adi-contact {
     font-family: var(--text-font);
     color: black;
-    text-align: right;
+    text-align: left;
     position: relative;
     font-size: 0.8vw;
     top: 70%;
-    right: 25%;
+    left: 70%;
+    width: 10%;
 }
-
 
 .hex-ellis{
     position: absolute;
@@ -504,20 +448,13 @@ a.linkToOld:hover {
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
-
-.ellis-bio {
-    position: absolute;
-    top: 400%;
-    width: 74%;
-}
-
 .ellis-name {
     font-family: var(--text-font);
     color: black;
     position: relative;
     font-size: 1.6vw;
     top: 35%;
-    left: 30%;
+    left: 40%;
 }
 
 .ellis-role {
@@ -526,7 +463,7 @@ a.linkToOld:hover {
     position: relative;
     font-size: 1.2vw;
     top: 15%;
-    left: 30%;
+    left: 40%;
 }
 
 .ellis-description {
@@ -535,7 +472,7 @@ a.linkToOld:hover {
     position: relative;
     font-size: 1vw;
     top: 70%;
-    left: 30%;
+    left: 40%;
     width: 50%;
 }
 
@@ -545,19 +482,9 @@ a.linkToOld:hover {
     position: relative;
     font-size: 0.8vw;
     top: 70%;
-    left: 30%;
+    left: 40%;
     width: 30%;
 }
-
-
-.eva-bio {
-    position: absolute;
-    top: 440%;
-    left:20%;
-    width: 74%;
-}
-
-
 
 .hex-eva {
     position: absolute;
@@ -570,6 +497,47 @@ a.linkToOld:hover {
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
+.eva-name {
+    font-family: var(--text-font);
+    color: black;
+    text-align: right;
+    position: relative;
+    font-size: 1.6vw;
+    top: 30%;
+    right: 25%;
+}
+
+.eva-role {
+    font-family: var(--text-font);
+    color: black;
+    text-align: right;
+    position: relative;
+    font-size: 1.2vw;
+    top: 15%;
+    right: 25%;
+}
+
+.eva-description {
+    font-family: var(--text-font);
+    text-align: right;
+    color: black;
+    position: relative;
+    font-size: 1vw;
+    top: 80%;
+    left: 25%;
+    width: 50%;
+}
+
+.eva-contact {
+    font-family: var(--text-font);
+    color: black;
+    text-align: left;
+    position: relative;
+    font-size: 0.8vw;
+    top: 70%;
+    left: 70%;
+    width: 10%;
+}
 
 .hex-nathan{
     position: absolute;
@@ -582,38 +550,93 @@ a.linkToOld:hover {
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
-
-.nathan-bio {
-    position: absolute;
-    top:480%;
-    width: 80%;
+.nathan-name {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.6vw;
+    top: 35%;
+    left: 40%;
 }
 
-.ishan-bio {
-    position: absolute;
-    top: 520%;
-    left:20%;
-    width: 74%;
+.nathan-role {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.2vw;
+    top: 15%;
+    left: 40%;
+}
+
+.nathan-description {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1vw;
+    top: 70%;
+    left: 40%;
+    width: 50%;
+}
+
+.nathan-contact {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 0.8vw;
+    top: 70%;
+    left: 40%;
+    width: 30%;
 }
 
 .hex-ishan {
-    position: absolute;
     background-color: orange; 
-    top: 2px; 
-    left: 2px; 
     width: 200px; 
     height: 173.2px;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
-.qiang-bio {
-    position: absolute;
-    top: 560%;
-    width: 74%;
+.ishan-name {
+    font-family: var(--text-font);
+    color: black;
+    text-align: right;
+    position: relative;
+    font-size: 1.6vw;
+    top: 30%;
+    right: 25%;
 }
 
+.ishan-role {
+    font-family: var(--text-font);
+    color: black;
+    text-align: right;
+    position: relative;
+    font-size: 1.2vw;
+    top: 15%;
+    right: 25%;
+}
 
+.ishan-description {
+    font-family: var(--text-font);
+    text-align: right;
+    color: black;
+    position: relative;
+    font-size: 1vw;
+    top: 80%;
+    left: 25%;
+    width: 50%;
+}
+
+.ishan-contact {
+    font-family: var(--text-font);
+    color: black;
+    text-align: left;
+    position: relative;
+    font-size: 0.8vw;
+    top: 70%;
+    left: 70%;
+    width: 10%;
+}
 
 .hex-qiang {
     position: absolute;
@@ -624,6 +647,44 @@ a.linkToOld:hover {
     height: 173.2px;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.qiang-name {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.6vw;
+    top: 35%;
+    left: 40%;
+}
+
+.qiang-role {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1.2vw;
+    top: 15%;
+    left: 40%;
+}
+
+.qiang-description {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 1vw;
+    top: 70%;
+    left: 40%;
+    width: 50%;
+}
+
+.qiang-contact {
+    font-family: var(--text-font);
+    color: black;
+    position: relative;
+    font-size: 0.8vw;
+    top: 70%;
+    left: 40%;
+    width: 30%;
 }
 
 .hex-nishi{
@@ -637,16 +698,62 @@ a.linkToOld:hover {
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
-.nishi-bio {
-    position: absolute;
-    top:580%;
-    width: 80%;
+.nishi-name {
+    font-family: var(--text-font);
+    color: black;
+    text-align: right;
+    position: relative;
+    font-size: 1.6vw;
+    top: 30%;
+    right: 25%;
+}
+
+.nishi-role {
+    font-family: var(--text-font);
+    color: black;
+    text-align: right;
+    position: relative;
+    font-size: 1.2vw;
+    top: 15%;
+    right: 25%;
+}
+
+.nishi-description {
+    font-family: var(--text-font);
+    text-align: right;
+    color: black;
+    position: relative;
+    font-size: 1vw;
+    top: 80%;
+    left: 25%;
+    width: 50%;
+}
+
+.nishi-contact {
+    font-family: var(--text-font);
+    color: black;
+    text-align: left;
+    position: relative;
+    font-size: 0.8vw;
+    top: 70%;
+    left: 70%;
+    width: 10%;
 }
 
 .bottomSquare {
     background-color: var(--background-colour);
-    position: absolute;
-    top: 600%;
     height: 20vh;
     width: 100%;
+}
+
+.followOn {
+    font-family: var(--text-font);
+    color: white;
+    text-align: left;
+    left: 5px;
+}
+
+.instagram {
+    font-family: var(--text-font);
+    color: white;
 }
