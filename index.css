@@ -12,11 +12,12 @@
 }
 
 html {
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: scroll;
+    width: 100%;
 }
 
 .scientificLink {
@@ -180,6 +181,11 @@ a.linkToOld:hover {
     font-size: 0.8vw;
 }
 
+.compOneVideo {
+    width: 39vw;
+    height: calc(39vw / 1.78);
+}
+
 .comp2 {
     font-family: var(--text-font);
     font-size: 1.5vw;
@@ -188,6 +194,11 @@ a.linkToOld:hover {
 .date2 {
     font-family: var(--text-font);
     font-size: 0.8vw;
+}
+
+.compTwoVideo {
+    width: 39vw;
+    height: calc(39vw / 1.78);
 }
 
 .ourTeamTitle {
@@ -204,8 +215,8 @@ a.linkToOld:hover {
     position: absolute;
     top: 3%;
     left: 5%;
-    width: 200px;
-    height: 173.2px; /* width * 0.866 */
+    width: 15vw;
+    height: calc(15vw * 0.866); /* width * 0.866 */
     box-sizing: border-box;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
@@ -225,8 +236,8 @@ a.linkToOld:hover {
     background-color: orange; 
     top: 2px; 
     left: 2px; 
-    width: 200px; 
-    height: 173.2px;
+    width: 15vw; 
+    height: calc(15vw * 0.866);
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -274,8 +285,8 @@ a.linkToOld:hover {
     position: absolute;
     top: 3%;
     right: 0%;
-    width: 200px;
-    height: 173.2px; /* width * 0.866 */
+    width: 15vw; 
+    height: calc(15vw * 0.866); /* width * 0.866 */
     box-sizing: border-box;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
@@ -292,8 +303,8 @@ a.linkToOld:hover {
 
 .hex-amber {
     background-color: orange; 
-    width: 200px; 
-    height: 173.2px;
+    width: 15vw; 
+    height: calc(15vw * 0.866);
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -332,12 +343,12 @@ a.linkToOld:hover {
 .amber-contact {
     font-family: var(--text-font);
     color: black;
-    text-align: left;
+    text-align: right;
     position: relative;
     font-size: 0.8vw;
     top: 70%;
-    left: 70%;
-    width: 10%;
+    left: 55%;
+    width: 20%;
 }
 
 .hex-daudi{
@@ -345,8 +356,8 @@ a.linkToOld:hover {
     background-color: orange; 
     top: 2px; 
     left: 2px; 
-    width: 200px; 
-    height: 173.2px;
+    width: 15vw; 
+    height: calc(15vw * 0.866);
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -394,8 +405,8 @@ a.linkToOld:hover {
     position: absolute;
     top: 2px;
     right: 2px;
-    width: 200px; 
-    height: 173.2px;
+    width: 15vw; 
+    height: calc(15vw * 0.866);
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }   
@@ -434,12 +445,12 @@ a.linkToOld:hover {
 .adi-contact {
     font-family: var(--text-font);
     color: black;
-    text-align: left;
+    text-align: right;
     position: relative;
     font-size: 0.8vw;
     top: 70%;
-    left: 70%;
-    width: 10%;
+    left: 45%;
+    width: 30%;
 }
 
 .hex-ellis{
@@ -447,8 +458,8 @@ a.linkToOld:hover {
     background-color: orange; 
     top: 2px; 
     left: 2px; 
-    width: 200px; 
-    height: 173.2px;
+    width: 15vw; 
+    height: calc(15vw * 0.866);
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -496,8 +507,8 @@ a.linkToOld:hover {
     background-color: orange; 
     top: 2px; 
     left: 2px; 
-    width: 200px; 
-    height: 173.2px;
+    width: 15vw; 
+    height: calc(15vw * 0.866);
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -536,12 +547,12 @@ a.linkToOld:hover {
 .eva-contact {
     font-family: var(--text-font);
     color: black;
-    text-align: left;
+    text-align: right;
     position: relative;
     font-size: 0.8vw;
     top: 70%;
-    left: 70%;
-    width: 10%;
+    left: 45%;
+    width: 30%;
 }
 
 .hex-nathan{
@@ -549,8 +560,8 @@ a.linkToOld:hover {
     background-color: orange; 
     top: 2px; 
     left: 2px; 
-    width: 200px; 
-    height: 173.2px;
+    width: 15vw; 
+    height: calc(15vw * 0.866);
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -595,8 +606,8 @@ a.linkToOld:hover {
 
 .hex-ishan {
     background-color: orange; 
-    width: 200px; 
-    height: 173.2px;
+    width: 15vw; 
+    height: calc(15vw * 0.866);
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -648,8 +659,8 @@ a.linkToOld:hover {
     background-color: orange; 
     top: 2px; 
     left: 2px; 
-    width: 200px; 
-    height: 173.2px;
+    width: 15vw; 
+    height: calc(15vw * 0.866);
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -697,8 +708,8 @@ a.linkToOld:hover {
     background-color: orange; 
     top: 2px; 
     left: 2px; 
-    width: 200px; 
-    height: 173.2px;
+    width: 15vw; 
+    height: calc(15vw * 0.866);
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -737,12 +748,12 @@ a.linkToOld:hover {
 .nishi-contact {
     font-family: var(--text-font);
     color: black;
-    text-align: left;
+    text-align: right;
     position: relative;
     font-size: 0.8vw;
     top: 70%;
-    left: 70%;
-    width: 10%;
+    left: 55%;
+    width: 20%;
 }
 
 .bottomSquare {
@@ -753,12 +764,22 @@ a.linkToOld:hover {
 
 .followOn {
     font-family: var(--text-font);
+    position: relative;
     color: white;
     text-align: left;
-    left: 5px;
+    font-size: smaller;
+
 }
 
 .instagram {
     font-family: var(--text-font);
     color: white;
+    font-size: small;
+}
+
+.tiktok {
+    font-family: var(--text-font);
+    color: white;
+    font-size: small;
+    left: 10px;
 }
