@@ -1,10 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+
 :root {
-    --background-colour: #E62A2E;
+    --background-colour: #393939;
     --title-font: 'Krona One';
     --text-font: 'Kosugi Maru';
 }
+
+.navbar{
+    background-color: var(--background-colour);
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white; 
+}
+
+.jumbotron {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/temp-background.png");
+    background-size: cover;
+    height: 800px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron-text{
+    padding-top: 20px;
+}
+
+.jumbotron::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.container {
+    z-index: 2; 
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+
+
+
 
 .logo {
     position: absolute;
