@@ -251,77 +251,97 @@ a.linkToOld:hover {
     color: var(--background-colour);
     font-weight: 120;
     font-size: 3vw;
-    text-align:center;
+    text-align: center;
+    
 }
 
-.hex {
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    top: 3%;
-    left: 5%;
-    width: 15vw;
-    height: calc(15vw * 0.866); /* width * 0.866 */
-    box-sizing: border-box;
-    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+/* Container for the hexagon profile grid */
+
+
+/* Define the hexagon shape */
+.hexagon {
+    position: relative;
+    width: 20vw;
+    height: calc(20vw * 0.866); /* Aspect ratio for hexagon */
+    clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    overflow: hidden;
+
 }
 
-.hex img {
-    position: absolute;
-    width: 100%; 
-    height: 100%; 
+.hex-img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    clip-path: inherit;
 }
 
-.hex-adrian {
+/* Bio Text: Initially hidden */
+.profile-info {
     position: absolute;
-    background-color: orange; 
-    top: 2px; 
-    left: 2px; 
-    width: 15vw; 
-    height: calc(15vw * 0.866);
-    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: opacity 0.3s ease;
 }
 
-.adrian-name {
-    font-family: var(--text-font);
-    color: black;
-    position: relative;
-    font-size: 1.6vw;
-    top: 25%;
-    left: 30%;
+.profile-hex:hover .hexagon {
+    transform: scale(1.1);  /* Slightly increase the size */
+    transition: transform 0.3s ease;
+}
+/* Show bio on hover */
+.profile-hex:hover .profile-info {
+    opacity: 1;
+    
 }
 
-.adrian-role {
-    font-family: var(--text-font);
-    color: black;
-    position: relative;
-    font-size: 1.2vw;
-    top: 15%;
-    left: 30%;
+.profile-name {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
-.adrian-description {
-    font-family: var(--text-font);
-    color: black;
-    position: relative;
-    font-size: 1vw;
-    top: 70%;
-    left: 30%;
-    width: 50%;
+.profile-role {
+    font-size: 1rem;
+    margin: 5px 0;
 }
 
-.adrian-contact {
-    font-family: var(--text-font);
-    color: black;
-    position: relative;
-    font-size: 0.8vw;
-    top: 70%;
-    left: 30%;
+
+.profile-row{
+    display:flex;
+    flex-wrap: wrap;
+    gap:100px;
+    padding: 0 10px;
+    
+}
+
+.meet-team-container{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: -120px;
+    
+}
+
+.profile-bio {
+    font-size: 1rem;
+    display: block; /* Hide bio initially */
+}
+
+/* Show the bio content more clearly if you want it */
+.profile-info p {
+    margin: 5px 0;
+}
+
+/* Responsive behavior for hexagons */
+@media (max-width: 768px) {
+    .hexagon {
+        width: 25vw;
+        height: calc(25vw * 0.866);
+    }
 }
 
 .hex1 {
