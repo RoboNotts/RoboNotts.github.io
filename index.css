@@ -252,6 +252,7 @@ a.linkToOld:hover {
     font-weight: 120;
     font-size: 3vw;
     text-align: center;
+    padding-top: 10px;
     
 }
 
@@ -339,9 +340,52 @@ a.linkToOld:hover {
 }
 
 .meet-team-container {
-    padding-left: 0;
-    padding-right: 0;
+    padding:0px;
     margin-left: -65px;
+}
+
+.teams-section{
+    background-color: var(--background-colour);
+    margin-left: -65px;
+}
+
+.teams-section h1{
+    color: white;
+}
+
+.teams-section h2{
+    color: var(--background-colour);
+    padding-top: 35%;
+    text-align: center;
+}
+
+
+
+.hex-color-1 {
+    background-color: #F59F00;
+}
+
+.hex-color-2 {
+    background-color: #D33675; 
+}
+
+.hex-color-3 {
+    background-color: #4772d7; 
+}
+
+.hex-color-4 {
+    background-color: #F34616; 
+}
+
+.hex-color-5 {
+    padding-top: 0%;
+    background-color: #00A380; 
+}
+
+
+a.clickable-hex {
+    display: block;
+    text-decoration: none; /* Remove the underline from the links */
 }
 
 /* Responsive behavior for hexagons */
