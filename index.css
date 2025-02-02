@@ -282,22 +282,24 @@ a.linkToOld:hover {
     background: rgba(0, 0, 0, 0.7);
     opacity: 0;
     color: white;
-    padding: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    justify-content: center;
+    justify-content:center;  /* Ensure there's space around the text */
+    align-items: center;  /* Centers the text horizontally */
     transition: opacity 0.3s ease;
-    overflow: hidden;  /* Hide any content overflowing the hexagon */
-    max-height: 100%; 
-
+    overflow: hidden;
+    max-height: 100%;
 }
 
 
 .profile-hex:hover .hexagon {
     transform: scale(1.1);  /* Slightly increase the size */
     transition: transform 0.3s ease;
+    clip-path: none;
+    
+    z-index: 10; 
+ 
 }
 /* Show bio on hover */
 .profile-hex:hover .profile-info {
@@ -306,13 +308,13 @@ a.linkToOld:hover {
 }
 
 .profile-name {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 .profile-role {
-    font-size: 1rem;
-    margin: 5px 0;
+    font-size: small;
+    margin: 2px 0;
 }
 
 
@@ -320,19 +322,20 @@ a.linkToOld:hover {
     display:flex;
     flex-wrap: wrap;
     gap:100px;
-    padding: 0 10px;
     
 }
 
 .meet-team-container{
     padding-left: 0;
     padding-right: 0;
-    margin-left: -120px;
+    margin-left: -75px;
     
 }
 
+
+
 .profile-bio {
-    font-size: 1rem;
+    font-size: small;
     display: block; /* Hide bio initially */
 }
 
