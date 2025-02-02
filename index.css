@@ -275,7 +275,6 @@ a.linkToOld:hover {
     clip-path: inherit;
 }
 
-/* Bio Text: Initially hidden */
 .profile-info {
     position: absolute;
     inset: 0;
@@ -285,61 +284,65 @@ a.linkToOld:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content:center;  /* Ensure there's space around the text */
-    align-items: center;  /* Centers the text horizontally */
+    justify-content: center; 
+    align-items: center; 
     transition: opacity 0.3s ease;
     overflow: hidden;
-    max-height: 100%;
-}
-
-
-.profile-hex:hover .hexagon {
-    transform: scale(1.1);  /* Slightly increase the size */
-    transition: transform 0.3s ease;
-    clip-path: none;
-    
-    z-index: 10; 
- 
-}
-/* Show bio on hover */
-.profile-hex:hover .profile-info {
-    opacity: 1;
-    
+    padding: 10px; 
+    max-height: 100%; 
+    height: 100%;
 }
 
 .profile-name {
-    font-size: 1rem;
+    font-size: clamp(1rem, 5vw, 1.5rem); 
     font-weight: bold;
+    margin: 5px 0; 
 }
 
 .profile-role {
-    font-size: small;
-    margin: 2px 0;
+    font-size: clamp(0.8rem, 4vw, 1rem); 
+    margin: 5px 0;
 }
-
-
-.profile-row{
-    display:flex;
-    flex-wrap: wrap;
-    gap:100px;
-    
-}
-
-.meet-team-container{
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: -75px;
-    
-}
-
-
 
 .profile-bio {
     font-size: small;
-    display: block; /* Hide bio initially */
+    display: block;
+    margin: 2px 0;
+     
 }
 
+/* Hover effect for hexagon */
+.profile-hex:hover .hexagon {
+    transform: scale(1.1);  /* Slightly increase the size without affecting layout */
+    transition: transform 0.3s ease;  /* Smooth transition for scaling */
+    clip-path: none;  /* Remove hexagonal shape and make it a square */
+  
+}
 
+/* Show profile info on hover */
+.profile-hex:hover .profile-info {
+    opacity: 1;
+}
+
+/* Ensures the text always stays inside the hexagon without overflow */
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  /* Space out the name, role, and bio */
+}
+
+/* Profile Row */
+.profile-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.meet-team-container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: -65px;
+}
 
 /* Responsive behavior for hexagons */
 @media (max-width: 768px) {
@@ -348,6 +351,7 @@ a.linkToOld:hover {
         height: calc(25vw * 0.866);
     }
 }
+
 
 
 .bottomSquare {
