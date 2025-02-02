@@ -347,6 +347,7 @@ a.linkToOld:hover {
 .teams-section{
     background-color: var(--background-colour);
     margin-left: -65px;
+    padding-bottom: 10px;
 }
 
 .teams-section h1{
@@ -359,7 +360,52 @@ a.linkToOld:hover {
     text-align: center;
 }
 
+.sponsor-section{
+    margin-left: -65px;
+}
 
+.sponsor-section h1{
+    color: var(--background-colour);
+}
+
+#carouselExampleControls {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #carouselExampleControls .carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel-control-prev {
+    left: 0; 
+  }
+  
+  .carousel-control-next {
+    right: 0; 
+  }
+  
+  .carousel-control-prev-icon, 
+  .carousel-control-next-icon {
+    width: 30px; 
+    height: 30px; 
+    background-size: 100%;
+  }
+  
+ 
 
 .hex-color-1 {
     background-color: #F59F00;
@@ -378,8 +424,8 @@ a.linkToOld:hover {
 }
 
 .hex-color-5 {
-    padding-top: 0%;
     background-color: #00A380; 
+    
 }
 
 
