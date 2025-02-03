@@ -30,107 +30,106 @@ Tomorrow by Tony De Marco - TTF files in assets > fontassets > Tomorrow.
   font-family: "Tomorrow", serif;
   font-weight: 100;
   font-style: normal;
-}
+}`
 
-.tomorrow-extralight {
+`.tomorrow-extralight {
   font-family: "Tomorrow", serif;
   font-weight: 200;
   font-style: normal;
-}
+}`
 
-.tomorrow-light {
+`.tomorrow-light {
   font-family: "Tomorrow", serif;
   font-weight: 300;
   font-style: normal;
-}
+}`
 
-.tomorrow-regular {
+`.tomorrow-regular {
   font-family: "Tomorrow", serif;
   font-weight: 400;
   font-style: normal;
-}
+}`
 
-.tomorrow-medium {
+`.tomorrow-medium {
   font-family: "Tomorrow", serif;
   font-weight: 500;
   font-style: normal;
-}
+}`
 
-.tomorrow-semibold {
+`.tomorrow-semibold {
   font-family: "Tomorrow", serif;
   font-weight: 600;
   font-style: normal;
-}
+}`
 
-.tomorrow-bold {
+`.tomorrow-bold {
   font-family: "Tomorrow", serif;
   font-weight: 700;
   font-style: normal;
-}
+}`
 
-.tomorrow-extrabold {
+`.tomorrow-extrabold {
   font-family: "Tomorrow", serif;
   font-weight: 800;
   font-style: normal;
-}
+}`
 
-.tomorrow-black {
+`.tomorrow-black {
   font-family: "Tomorrow", serif;
   font-weight: 900;
   font-style: normal;
-}
+}`
 
-.tomorrow-thin-italic {
+`.tomorrow-thin-italic {
   font-family: "Tomorrow", serif;
   font-weight: 100;
   font-style: italic;
-}
+}`
 
-.tomorrow-extralight-italic {
+`.tomorrow-extralight-italic {
   font-family: "Tomorrow", serif;
   font-weight: 200;
   font-style: italic;
-}
+}`
 
-.tomorrow-light-italic {
+`.tomorrow-light-italic {
   font-family: "Tomorrow", serif;
   font-weight: 300;
   font-style: italic;
-}
+}`
 
-.tomorrow-regular-italic {
+`.tomorrow-regular-italic {
   font-family: "Tomorrow", serif;
   font-weight: 400;
   font-style: italic;
-}
+}`
 
-.tomorrow-medium-italic {
+`.tomorrow-medium-italic {
   font-family: "Tomorrow", serif;
   font-weight: 500;
   font-style: italic;
-}
+}`
 
-.tomorrow-semibold-italic {
+`.tomorrow-semibold-italic {
   font-family: "Tomorrow", serif;
   font-weight: 600;
   font-style: italic;
-}
+}`
 
-.tomorrow-bold-italic {
+`.tomorrow-bold-italic {
   font-family: "Tomorrow", serif;
   font-weight: 700;
   font-style: italic;
-}
+}`
 
-.tomorrow-extrabold-italic {
+`.tomorrow-extrabold-italic {
   font-family: "Tomorrow", serif;
   font-weight: 800;
   font-style: italic;
-}
+}`
 
-.tomorrow-black-italic {
+`.tomorrow-black-italic {
   font-family: "Tomorrow", serif;
   font-weight: 900;
   font-style: italic;
-}
-`
+}`
