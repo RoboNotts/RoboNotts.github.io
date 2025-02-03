@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1033.83 507.33">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #ef4823;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #00a380;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        fill: #4f6fb6;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        fill: #d43676;
+      }
+
+      .cls-12 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-15 {
+        fill: #f49f1e;
+      }
+
+      .cls-5 {
+        font-family: Tomorrow-Regular, Tomorrow;
+        font-size: 30px;
+      }
+
+      .cls-16 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        font-family: Tomorrow-SemiBold, Tomorrow;
+        font-size: 100px;
+        font-weight: 600;
+      }
+
+      .cls-17 {
+        fill: #393939;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1">
+    <polygon class="cls-9" points="297.64 272.06 174.89 484.67 420.39 484.67 297.64 272.06"/>
+    <polygon class="cls-17" points="297.64 334.67 211.04 484.67 384.24 484.67 297.64 334.67"/>
+    <polygon class="cls-7" points="286.91 265.86 41.41 265.86 164.16 478.47 286.91 265.86"/>
+    <polygon class="cls-17" points="232.69 297.17 59.48 297.17 146.08 447.17 232.69 297.17"/>
+    <polygon class="cls-15" points="164.16 40.86 41.41 253.47 286.91 253.47 164.16 40.86"/>
+    <polygon class="cls-17" points="232.69 222.17 146.08 72.17 59.48 222.17 232.69 222.17"/>
+    <polygon class="cls-3" points="297.64 247.28 420.39 34.67 174.89 34.67 297.64 247.28"/>
+    <polygon class="cls-17" points="297.64 184.67 384.24 34.67 211.04 34.67 297.64 184.67"/>
+    <polygon class="cls-11" points="431.12 40.86 308.37 253.47 553.87 253.47 431.12 40.86"/>
+    <polygon class="cls-17" points="362.59 222.17 535.79 222.17 449.19 72.17 362.59 222.17"/>
+    <polygon class="cls-4" points="372.64 129.76 222.64 129.76 147.64 259.67 222.64 389.57 372.64 389.57 447.64 259.67 372.64 129.76"/>
+    <polygon class="cls-17" points="352.64 164.4 242.64 164.4 187.64 259.67 242.64 354.93 352.64 354.93 407.64 259.67 352.64 164.4"/>
+    <g>
+      <path class="cls-4" d="M219.08,303.37v-84.75h57.73l12.88,12.76v30.36l-9.66,9.66,12.88,31.97h-21.62l-11.15-28.87h-19.55v28.87h-21.5ZM240.59,258.18h24.15l4.03-4.02v-15.18l-4.03-4.02h-24.15v23.23Z"/>
+      <path class="cls-4" d="M304.41,303.37v-84.75h23.46l28.52,50.83v-50.83h20.01v84.75h-20.01l-27.83-49.68h-4.14v49.68h-20.01Z"/>
+    </g>
+  </g>
+  <g id="Layer_3">
+    <g>
+      <text class="cls-6" transform="translate(473.28 253.47) scale(.81 1)"><tspan class="cls-1" x="0" y="0">R</tspan><tspan x="70.7" y="0">o</tspan><tspan class="cls-8" x="133.8" y="0">b</tspan><tspan x="198.9" y="0">oNotts</tspan></text>
+      <text class="cls-5" transform="translate(481.28 288.72)"><tspan x="0" y="0">DEPEN</tspan><tspan class="cls-12" x="98.49" y="0">D</tspan><tspan x="119.19" y="0">ABLE </tspan><tspan class="cls-14" x="202.08" y="0">AS</tspan><tspan class="cls-10" x="240.51" y="0">SI</tspan><tspan class="cls-13" x="272.1" y="0">S</tspan><tspan x="291.18" y="0">TIVE RO</tspan><tspan class="cls-2" x="406.19" y="0">B</tspan><tspan x="426.68" y="0">OTI</tspan><tspan class="cls-16" x="476" y="0">C</tspan><tspan class="cls-10" x="495.08" y="0">S</tspan></text>
+    </g>
+  </g>
+</svg>
