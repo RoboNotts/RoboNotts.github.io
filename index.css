@@ -22,7 +22,7 @@
     padding: 0;
     background-image: url("assets/temp-background.png");
     background-size: cover;
-    height: 800px;
+    height: 650px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -266,6 +266,9 @@ a.linkToOld:hover {
     height: calc(20vw * 0.866); /* Aspect ratio for hexagon */
     clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     overflow: hidden;
+    display: flex;
+    align-items: center; 
+    justify-content: center
 
 }
 
@@ -356,7 +359,7 @@ a.linkToOld:hover {
 
 .teams-section h2{
     color: var(--background-colour);
-    padding-top: 35%;
+    
     text-align: center;
 }
 
@@ -471,3 +474,4 @@ a.clickable-hex {
     font-size: small;
     left: 10px;
 }
+
