@@ -7,9 +7,22 @@
     --text-font: 'Kosugi Maru';
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+
 .navbar{
     background-color: var(--background-colour);
     color: white;
+    width: 100%;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -56,14 +69,7 @@
     left: 1%;
 }
 
-html {
-    overflow-x: scroll;
-}
 
-body {
-    overflow-x: scroll;
-    width: 100%;
-}
 
 .scientificLink {
     font-family: var(--text-font), sans-serif;
@@ -262,8 +268,8 @@ a.linkToOld:hover {
 /* Define the hexagon shape */
 .hexagon {
     position: relative;
-    width: 20vw;
-    height: calc(20vw * 0.866); /* Aspect ratio for hexagon */
+    width: 22vw;
+    height: calc(22vw * 0.866); /* Aspect ratio for hexagon */
     clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     overflow: hidden;
     display: flex;
@@ -298,13 +304,13 @@ a.linkToOld:hover {
 }
 
 .profile-name {
-    font-size: clamp(1rem, 5vw, 1.5rem); 
+    font-size: clamp(0.8rem, 5vw, 1.5rem); 
     font-weight: bold;
     margin: 5px 0; 
 }
 
 .profile-role {
-    font-size: clamp(0.8rem, 4vw, 1rem); 
+    font-size: clamp(0.7rem, 4vw, 1rem); 
     margin: 5px 0;
 }
 
@@ -372,7 +378,7 @@ a.linkToOld:hover {
 }
 
 #carouselExampleControls {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
   }
@@ -401,11 +407,29 @@ a.linkToOld:hover {
     right: 0; 
   }
   
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 100%; /* Ensure the width is full */
+    text-align: center; /* Ensure text inside is also centered */
+}
+
+  
   .carousel-control-prev-icon, 
   .carousel-control-next-icon {
-    width: 30px; 
-    height: 30px; 
-    background-size: 100%;
+    width: 40px; 
+    height: 40px; 
+   
+  }
+
+
+
+  
+  .carousel-control-next-icon{
+    margin-left: 100px;
   }
   
  
