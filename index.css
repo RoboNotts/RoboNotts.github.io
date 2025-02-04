@@ -268,8 +268,8 @@ a.linkToOld:hover {
 /* Define the hexagon shape */
 .hexagon {
     position: relative;
-    width: 22vw;
-    height: calc(22vw * 0.866); /* Aspect ratio for hexagon */
+    width: 21vw;
+    height: calc(21vw * 0.866); /* Aspect ratio for hexagon */
     clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     overflow: hidden;
     display: flex;
@@ -341,12 +341,90 @@ a.linkToOld:hover {
     justify-content: space-around;  /* Space out the name, role, and bio */
 }
 
-/* Profile Row */
+
+
 .profile-row {
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
 }
+
+.teams-section .row {
+    margin-left: 150px; /* Adjust percentage as needed */
+}
+
+.clickable-hex{
+    position: relative; /* Needed to position hexagons correctly */
+    width: 100%;
+    height: auto;
+}
+
+
+/* First row of hexagons */
+.clickable-hex .col-4:nth-child(1) {
+    top: 0;
+    left: 70;
+}
+
+.clickable-hex .col-4:nth-child(2) {
+    top: 0;
+    left: 3vw; /* Adjust to create space between hexagons */
+}
+
+.clickable-hex .col-4:nth-child(3) {
+    top: 0;
+    left: 16vw;
+}
+
+/* Second row of hexagons, offset vertically */
+.clickable-hex .col-4:nth-child(4) {
+    top: 50%; /* Offset by 50% (or adjust to your liking) */
+    left: 5vw; /* Adjust for the staggered effect */
+}
+
+.clickable-hex .col-4:nth-child(5) {
+    top: 50%; /* Offset vertically */
+    left: 14vw; /* Adjust for staggered layout */
+}
+
+/* Optional: Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+    .hexagon {
+        width: 40vw;  /* Adjust the size of hexagons */
+        height: calc(40vw * 0.866); /* Adjust height for smaller screens */
+    }
+
+    /* Adjust positioning for mobile */
+    .clickable-hex .col-4:nth-child(1) {
+        top: 0;
+        left: 0;
+    }
+
+    .clickable-hex .col-4:nth-child(2) {
+        top: 0;
+        left: 35vw;
+    }
+
+    .clickable-hex .col-4:nth-child(3) {
+        top: 0;
+        left: 80vw;
+    }
+
+    .clickable-hex .col-4:nth-child(4) {
+        top: 50%;
+        left: 0vw;
+    }
+
+    .clickable-hex .col-4:nth-child(5) {
+        top: 50%;
+        left: 45vw;
+    }
+}
+
+
+
+
+
 
 .meet-team-container {
     padding:0px;
